@@ -3,19 +3,19 @@
 
     <parent>
         <groupId>de.kaufhof.ets</groupId>
-        <artifactId>ets-build-parent</artifactId>
-        <version>0.1.0-SNAPSHOT</version>
+        <artifactId>ets-poms-aggregator-parent</artifactId>
+        <version>[0.2.0,1)</version>
     </parent>
 
-    <artifactId>ets-archetype-build</artifactId>
-    <version>0.10-SNAPSHOT</version>
+    <artifactId>ets-archetypes-aggregator</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>ETS - Archetype Build POM</name>
-    <url>https://github.com/Galeria-Kaufhof/ets-archetype</url>
+    <name>ETS - Archetypes Aggregator POM</name>
+    <url>https://github.com/Galeria-Kaufhof/ets-archetypes</url>
 
     <modules>
-        <module>ets-archetype-library</module>
-        <module>ets-archetype-service</module>
+        <module>ets-archetypes-library</module>
+        <module>ets-archetypes-application</module>
     </modules>
 
     <licenses>
@@ -35,21 +35,10 @@
     </developers>
 
     <scm>
-        <url>https://github.com/Galeria-Kaufhof/ets-archetype</url>
-        <connection>scm:git:git@github.com:Galeria-Kaufhof/ets-archetype.git</connection>
-        <developerConnection>scm:git:git@github.com:Galeria-Kaufhof/ets-archetype.git</developerConnection>
+        <url>https://github.com/Galeria-Kaufhof/ets-archetypes</url>
+        <connection>scm:git:git@github.com:Galeria-Kaufhof/ets-archetypes.git</connection>
+        <developerConnection>scm:git:git@github.com:Galeria-Kaufhof/ets-archetypes.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
-
-    <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
-        <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-        </repository>
-    </distributionManagement>
 
 </project>

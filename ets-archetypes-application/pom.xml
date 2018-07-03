@@ -2,13 +2,15 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>de.kaufhof.ets</groupId>
-        <artifactId>ets-archetype-parent</artifactId>
-        <version>0.1.0-SNAPSHOT</version>
+        <artifactId>ets-poms-archetype-parent</artifactId>
+        <version>[0.2.0,1)</version>
         <relativePath />
     </parent>
 
-    <artifactId>ets-archetype-library</artifactId>
+    <description>Archetype for new ETS standard application</description>
+    <artifactId>ets-archetypes-application</artifactId>
     <packaging>maven-archetype</packaging>
-    <name>ETS - Archetype Library</name>
+    <name>ETS - Archetypes Application Archetype</name>
+    <version>0.1.0-SNAPSHOT</version>
 
 </project>
