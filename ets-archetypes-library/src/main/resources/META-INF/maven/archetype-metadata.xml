@@ -23,5 +23,8 @@
                 <include>pom.xml</include>
             </includes>
         </fileSet>
+        <fileSet filtered="true" packaged="true">
+            <directory>__artifactId__-core/src/main/scala</directory>
+        </fileSet>
     </fileSets>
 </archetype-descriptor>
