@@ -4,12 +4,12 @@
 
     <parent>
         <groupId>de.kaufhof.ets</groupId>
-        <artifactId>ets-build-parent</artifactId>
-        <version>0.1.0-SNAPSHOT</version>
+        <artifactId>ets-poms-aggregator-parent</artifactId>
+        <version>[0.3.0,1)</version>
     </parent>
 
     <groupId>${groupId}</groupId>
-    <artifactId>${artifactId}-build</artifactId>
+    <artifactId>${artifactId}-aggregator</artifactId>
     <version>${version}</version>
     <packaging>pom</packaging>
 
@@ -41,16 +41,5 @@
         <developerConnection>scm:git:git@github.com:Galeria-Kaufhof/${artifactId}.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
-
-    <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
-        <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-        </repository>
-    </distributionManagement>
 
 </project>
